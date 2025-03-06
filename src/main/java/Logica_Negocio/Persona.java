@@ -18,21 +18,21 @@ public class Persona {
         this.nombrePersona = nombrePersona;
         this.apellido = apellido;
         this.objProducto = objProducto;
-    }  
+    }
 
-    public String getId() {
+    public String getIdPersona() {
         return idPersona;
     }
 
-    public void setId(String idPersona) {
+    public void setIdPersona(String idPersona) {
         this.idPersona = idPersona;
     }
 
-    public String getNombre() {
+    public String getNombrePersona() {
         return nombrePersona;
     }
 
-    public void setNombre(String nombrePersona) {
+    public void setNombrePersona(String nombrePersona) {
         this.nombrePersona = nombrePersona;
     }
 
@@ -50,7 +50,5 @@ public class Persona {
 
     public void setObjProducto(Producto objProducto) {
         this.objProducto = objProducto;
-    }
-    
-    
+    }    
 }
