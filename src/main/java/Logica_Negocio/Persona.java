@@ -7,33 +7,33 @@ package Logica_Negocio;
  */
 public class Persona {
     
-    public String id, nombre, apellido;
+    public String idPersona, nombrePersona, apellido;
     public Producto objProducto;
 
     public Persona() {
     }
 
-    public Persona(String id, String nombre, String apellido, Producto objProducto) {
-        this.id = id;
-        this.nombre = nombre;
+    public Persona(String idPersona, String nombrePersona, String apellido, Producto objProducto) {
+        this.idPersona = idPersona;
+        this.nombrePersona = nombrePersona;
         this.apellido = apellido;
         this.objProducto = objProducto;
-    }
+    }  
 
     public String getId() {
-        return id;
+        return idPersona;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String idPersona) {
+        this.idPersona = idPersona;
     }
 
     public String getNombre() {
-        return nombre;
+        return nombrePersona;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String nombrePersona) {
+        this.nombrePersona = nombrePersona;
     }
 
     public String getApellido() {
