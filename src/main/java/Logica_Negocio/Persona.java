@@ -7,25 +7,14 @@ package Logica_Negocio;
  */
 public class Persona {
     
-    public String idPersona, nombrePersona, apellido;
+    public String nombrePersona, apellido, idPersona;
     public Producto objProducto;
 
-    public Persona() {
-    }
-
-    public Persona(String idPersona, String nombrePersona, String apellido, Producto objProducto) {
-        this.idPersona = idPersona;
+    public Persona(String nombrePersona, String apellido, String idPersona, Producto objProducto) {
         this.nombrePersona = nombrePersona;
         this.apellido = apellido;
-        this.objProducto = objProducto;
-    }
-
-    public String getIdPersona() {
-        return idPersona;
-    }
-
-    public void setIdPersona(String idPersona) {
         this.idPersona = idPersona;
+        this.objProducto = objProducto;
     }
 
     public String getNombrePersona() {
@@ -44,11 +33,22 @@ public class Persona {
         this.apellido = apellido;
     }
 
+    public String getIdPersona() {
+        return idPersona;
+    }
+
+    public void setIdPersona(String idPersona) {
+        this.idPersona = idPersona;
+    }
+
     public Producto getObjProducto() {
         return objProducto;
     }
 
     public void setObjProducto(Producto objProducto) {
         this.objProducto = objProducto;
-    }    
+    }
+
+   
+       
 }
