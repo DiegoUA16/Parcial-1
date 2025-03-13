@@ -1,4 +1,3 @@
-
 package Logica_Negocio;
 
 /**
@@ -6,7 +5,7 @@ package Logica_Negocio;
  * @author 1002821333
  */
 public class Persona {
-    
+
     public String nombrePersona, apellido, idPersona;
     public Producto objProducto;
 
@@ -15,6 +14,9 @@ public class Persona {
         this.apellido = apellido;
         this.idPersona = idPersona;
         this.objProducto = objProducto;
+    }
+
+    public Persona() {
     }
 
     public String getNombrePersona() {
@@ -49,6 +51,4 @@ public class Persona {
         this.objProducto = objProducto;
     }
 
-   
-       
 }

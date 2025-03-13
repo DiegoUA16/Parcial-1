@@ -6,12 +6,15 @@ package Logica_Negocio;
  */
 public class Producto {
 
-    public String nombre, id , descripcion;
+    public String nombre, id, descripcion;
 
     public Producto(String nombre, String id, String descripcion) {
         this.nombre = nombre;
         this.id = id;
         this.descripcion = descripcion;
+    }
+
+    public Producto() {
     }
 
     public String getNombre() {
@@ -38,5 +41,4 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-   
 }
